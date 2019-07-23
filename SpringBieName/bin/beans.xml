@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dog" class="org.fkjava.spring.Dog" name="*_*,@_@" lazy-init="true">
+		<constructor-arg  value="233"/>
+		<property name="name" value="旺财"/>
+	</bean>
+	
+	<!-- 为bean指定别名 
+	<alias name="name" alias="2"/>-->
+</beans>
