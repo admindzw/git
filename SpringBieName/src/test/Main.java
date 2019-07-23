@@ -10,5 +10,6 @@ public class Main {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
 		Dog dog = (Dog)ctx.getBean("*_*");
 		System.out.println(dog);
+		System.out.println();
 	}
 }
